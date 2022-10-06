@@ -54,7 +54,6 @@ outfile.close()
 
 infile = open('wacoRestaurants.csv','r')
 reader = csv.reader(infile, delimiter=',')
-
 next(reader)
 
 newDict = {}
